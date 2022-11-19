@@ -50,12 +50,6 @@ if __name__ == '__main__':
     access_secret=""
     bearer_token=""
 
-    print(consumer_key)
-    print(consumer_secret)
-    print(access_key)
-    print(access_secret)
-    print(bearer_token)
-
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)

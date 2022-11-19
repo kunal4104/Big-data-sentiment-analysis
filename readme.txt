@@ -1,3 +1,6 @@
+Sentiment analysis on realtime tweets for set topics using kafka, pyspark and ELK stack.
+
+
 Steps to setup dependencies: 
 1. Start Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties
 2. Start Kafka: bin/kafka-server-start.sh config/server.properties
